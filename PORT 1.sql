@@ -62,7 +62,7 @@ From modified_busiest_airports
 Group By Country
 Order By [Number of Airport]DESC
 
--- Let's know the most busy airport with the most passengers.
+-- Let's know the most busy airports with the most passengers.
 
 Select Country,City_Trim,MAX(Total_passengers) As MaxPassengersAtAirports
 From modified_busiest_airports
