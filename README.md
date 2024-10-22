@@ -1,18 +1,18 @@
-******Most-Busiest Airport Data Analysis******
+# Most-Busiest Airport Data Analysis
 
-**Project Objective**
+### Project Objective
 
 It is no longer news that the importance of air travel as a global connectivity and commerce can’t be belittled. This project aims to create awareness about airports around the world welcoming the most passengers and also to enlighten any travel lover out there who may intend to visit any of these countries someday.
 
-**Data Sources**
+### Data Sources
 
 The Primary dataset used for this analysis is “most_busiest_airport.xlsx” file containing a detailed information about each airport, location and region for the year 2022.
 
-**Data Tools**
+### Data Tools
 
 •	Microsoft SQL Server Management Studio – Data cleaning and Data Analysis.
 
-**Data Description**
+### Data Description
 
 This case study contains a single dataset and it comprises of;
 * Rank: A unique identifier for each airport.
@@ -27,7 +27,7 @@ This case study contains a single dataset and it comprises of;
 
 
 
-**Data Cleaning and Preparation**
+### Data Cleaning and Preparation
 
 The dataset was properly cleaned and double checked to ensure data integrity and suitability for analysis. The following were the steps carried out to achieve this:
 
@@ -59,11 +59,11 @@ The dataset was properly cleaned and double checked to ensure data integrity and
               Set Trimmed_City= LTRIM(City);
 
 
-**Exploratory Data Analysis**
+### Exploratory Data Analysis
 
 EDA was conducted on Microsoft SQL server was able to uncover the possible challenges airport staffs might face in terms of size of people visiting. It also shows the number of passengers visiting the most populated airports in a country, the busiest airports and the busiest in each of the most visited countries of the world. It also highlights the countries people love going to the most from the world.
 
-**Results and Insights**
+### Results and Insights
 
 1.	The most passengers entering into a country was achieved with the United States taking the lead.
 2.	The research carried out shows that United States, United Arab Emirates, Turkey, United Kingdom, India, France, Netherland, Spain, Japan and Germany are the most visited countries.
